@@ -16,7 +16,7 @@ import (
 )
 
 func get_currentIP() (string, error) {
-	response, err := http.Get("http://1111.ip138.com/ic.asp")
+	response, err := http.Get("http://1212.ip138.com/ic.asp")
 
 	if err != nil {
 		log.Println("Cannot get IP...")
